@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">341057443761-acaitauo9uvf4mj3m1hdkpkfhh5an7ei.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://pothik-1b8c7.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">341057443761</string>
+    <string name="google_api_key" translatable="false">AIzaSyA4C4WjOSHfWUK7gcjcfatBdSNd6WpeS6k</string>
+    <string name="google_app_id" translatable="false">1:341057443761:android:41d230b97dd0d332</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA4C4WjOSHfWUK7gcjcfatBdSNd6WpeS6k</string>
+    <string name="google_storage_bucket" translatable="false">pothik-1b8c7.appspot.com</string>
+    <string name="project_id" translatable="false">pothik-1b8c7</string>
+</resources>
