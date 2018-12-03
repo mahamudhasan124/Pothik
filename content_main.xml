@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.cse327.pothik.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/explore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/get_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="92dp"
+            android:text="Let's Explore" />
+
+        <TextView
+            android:id="@+id/get_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="34dp"
+            android:text=" "
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:id="@+id/get_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/get_name"
+            android:layout_below="@+id/get_name"
+            android:layout_marginTop="19dp"
+            android:text=" "
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:id="@+id/pno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/get_address"
+            android:layout_below="@+id/get_address"
+            android:layout_marginTop="15dp"
+            android:text=" " />
+
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
